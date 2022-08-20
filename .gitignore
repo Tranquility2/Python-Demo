@@ -1,0 +1,21 @@
+# Byte-compiled
+__pycache__/
+
+# Distribution
+dist/
+
+# Unit test
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Environments
+.env
+
+# Docs
+site/

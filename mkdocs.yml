@@ -1,0 +1,6 @@
+site_name: App
+
+theme:
+  name: "material"
+  font:
+    text: Roboto Mono
