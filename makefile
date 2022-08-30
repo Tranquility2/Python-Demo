@@ -7,7 +7,7 @@ setup:
 	poetry install
 
 run:
-	@poetry run python app/main.py
+	@poetry run python app/demo/console.py
 
 clean:
 	@find . -type f -name '*.py[co]' -delete -o -type d -name __pycache__ -delete
