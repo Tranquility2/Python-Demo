@@ -10,7 +10,7 @@ GET_MEMES_URL = "https://api.imgflip.com/get_memes"
 
 
 @app.command()
-def get_memes(num_of_results: int = typer.Argument(10, help="Limit number of resutls")) -> None:
+def get_memes(num_of_results: int = typer.Argument(10, help="Limit number of results")) -> None:
     request = httpx.get(GET_MEMES_URL)
     if request.status_code != httpx.codes.OK:
         raise Exception("Failed to process request")
