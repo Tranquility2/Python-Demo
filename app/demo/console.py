@@ -9,6 +9,11 @@ console = rich.console.Console(highlight=False)
 
 @app.command()
 def get_memes(num_of_results: int = typer.Argument(10, help="Limit number of results")) -> None:
+    """Get top memes and print them
+
+    Args:
+        num_of_results (int, optional): limits number of results. Defaults to 10.
+    """
     data_snap = fetch_data(num_of_results=num_of_results)
 
     table = rich.table.Table(title="Top Memes")

@@ -7,6 +7,17 @@ GET_MEMES_URL = "https://api.imgflip.com/get_memes"
 
 
 def fetch_data(num_of_results: int) -> Any:
+    """Fetch info related to top memes
+
+    Args:
+        num_of_results (int): limits the number of results
+
+    Raises:
+        Exception: request error
+
+    Returns:
+        Any: data list
+    """
     request = httpx.get(GET_MEMES_URL)
     if request.status_code != httpx.codes.OK:
         raise Exception("Failed to process request")
