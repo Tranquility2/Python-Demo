@@ -9,7 +9,7 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 rich = "^12.5.1"
 typer = "^0.6.1"
 httpx = "^0.23.0"
@@ -60,7 +60,7 @@ exclude = '''
 preview = true
 
 [tool.mypy]
-python_version = 3.8
+python_version = 3.9
 check_untyped_defs = true
 disallow_untyped_defs = true
 disallow_incomplete_defs = true
