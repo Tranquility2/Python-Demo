@@ -10,7 +10,7 @@ This is just an overview for the project.
 * `make cleanup` - Clenup for any temp files in the project.
 * `make check` - Run all checks and formatters.
 * `make docs-serve` - Serve the docs using mkdocs.
-* `make rudocs-buildn` - Build the docs using mkdocs.
+* `make docs-build` - Build the docs using mkdocs.
 
 ## Table Of Contents
 
