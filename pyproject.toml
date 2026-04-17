@@ -20,7 +20,7 @@ requests = "^2.33.0"
 setuptools = "^78.1.1"
 
 [tool.poetry.group.dev.dependencies]
-pytest = "^8.0"
+pytest = "^9.0"
 black = "^26.3.1"
 flake8 = "^7.1"
 isort = "^6.0"
