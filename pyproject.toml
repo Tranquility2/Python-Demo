@@ -17,7 +17,7 @@ mkdocs-material = "^9.5"
 pygments = "^2.20.0"
 urllib3 = "^2.7.0"
 requests = "^2.33.0"
-setuptools = "^78.1.1"
+setuptools = "^83.0.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^9.0"
